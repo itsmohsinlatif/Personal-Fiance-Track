@@ -1,15 +1,14 @@
-```markdown
 # Personal Finance Tracking Program
 
 This is a Python-based Personal Finance Tracking program that allows you to efficiently manage and track your financial transactions. You can add transactions, view them within a specific time range, categorize them as income, expense, or savings, and even visualize your financial status with a line graph. The program saves and manages data using a CSV file for persistence.
 
 ## Features
 
-- **Add Transactions**: Record your financial transactions specifying amount, date, and category.
-- **View Transactions**: Display transactions within a specific time range.
+- **Add Transactions**: Record your financial transactions specifying amount, date, category, and description.
+- **View Transactions**: Display transactions within a specific date range.
 - **Categorize Transactions**: Categorize transactions as income, expense, or savings.
 - **Data Storage**: Persist transactions in a CSV file.
-- **Data Visualization**: Plot a line graph showing income, expense, and savings over time.
+- **Data Visualization**: Plot a line graph showing income and expenses over time.
 - **User-friendly Menu**: Operate the program using a simple menu-driven interface.
 
 ## Requirements
@@ -38,53 +37,71 @@ pip install pandas matplotlib
     ```
 
 3. **Menu Options**:
-    - `1. Add Transaction`: Add a new financial transaction. You will be prompted to enter the amount, date (in `YYYY-MM-DD` format), and category (income/expense/savings).
-    - `2. Show Transactions`: Display all transactions within a specified date range.
-    - `3. View Balance`: Show current balance categorized as income, expense, and savings.
-    - `4. Plot Line Graph`: Visualize your transactions over time with a line graph.
-    - `5. Exit`: Exit from the program.
+    - `1. Add new Transaction`: Add a new financial transaction specifying the date, amount, category, and description.
+    - `2. View Transactions and summary within date range`: Display transactions within a specified date range, along with a summary of total income, expenses, and net savings. Optionally, plot a line graph.
+    - `3. Exit`: Exit from the program.
 
 ## Example
 
 ### Adding a Transaction
-
-![Add Transaction](images/add_transaction.png)
+```plaintext
+Enter the transaction date (dd-mm-yyyy) or press Enter for today's date: 15-10-2023
+Enter the transaction amount: 500
+Enter the transaction category (Income/Expense): Income
+Enter a description for the transaction: Salary
+```
 
 ### Viewing Transactions
+```plaintext
+Enter the start date (dd-mm-yyyy): 01-10-2023
+Enter the end date (dd-mm-yyyy): 31-10-2023
+Transactions from 01-10-2023 to 31-10-2023
+date        amount    category    description
+15-10-2023  500       Income      Salary
 
-![Show Transactions](images/show_transactions.png)
+Summary:
+Total Income: $500.00
+Total Expense: $0.00
+Net Savings: $500.00
+Do you want to see a plot? (y/n): y
+
+```
 
 ### Plotting a Line Graph
-
-![Line Graph](images/line_graph.png)
+![Line Graph](transaction_plot.png)
 
 ## CSV Data Format
 
-The transactions are stored in a CSV file named `transactions.csv` with the following columns:
+The transactions are stored in a CSV file named `finance_data.csv` with the following columns:
 
-- `Date`: The date of the transaction in `YYYY-MM-DD` format.
-- `Category`: The category of the transaction (income/expense/savings).
-- `Amount`: The amount of the transaction.
+- `date`: The date of the transaction in `dd-mm-yyyy` format.
+- `amount`: The amount of the transaction.
+- `category`: The category of the transaction (Income/Expense).
+- `description`: A brief description of the transaction.
 
 Example:
 
 ```csv
 date,amount,category,description
-01-01-2024,372.9,Income,Salary
-02-01-2024,200.58,Expense,Transportation
-03-01-2024,150.42,Income,Investment Return
-04-01-2024,320.33,Income,Freelance
+15-10-2023,500,Income,Salary
 ```
 
 ## Directory Structure
 
 ```
 personal-finance-tracker/
-├── main.py
-├── data_entry.py
+├── finance_tracker.py
 ├── finance_data.csv
-└── README.md
+├── data_entry.py
+├── README.md
+└── transaction_plot.png
+    
 ```
+
+## Contributing
+
+Contributions are welcome! Please open an issue to discuss what you would like to change.
+
 
 ## Contact
 
