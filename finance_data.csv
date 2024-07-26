@@ -1,0 +1,96 @@
+date,amount,category,description
+01-01-2024,372.9,Income,Salary
+02-01-2024,200.58,Expense,Transportation
+03-01-2024,150.42,Income,Investment Return
+04-01-2024,320.33,Income,Freelance
+05-01-2024,123.56,Expense,Utilities
+06-01-2024,310.45,Income,Salary
+07-01-2024,290.23,Expense,Entertainment
+08-01-2024,400.78,Income,Bonus
+09-01-2024,235.64,Expense,Dining Out
+10-01-2024,180.25,Expense,Transportation
+11-01-2024,270.45,Income,Gift
+12-01-2024,195.36,Expense,Rent
+13-01-2024,250.75,Income,Investment Return
+14-01-2024,400.50,Income,Freelance
+15-01-2024,120.30,Expense,Grocery
+16-01-2024,350.45,Income,Salary
+17-01-2024,210.89,Expense,Utilities
+18-01-2024,300.78,Income,Salary
+19-01-2024,245.56,Expense,Entertainment
+20-01-2024,198.45,Expense,Transportation
+21-01-2024,270.30,Income,Investment Return
+22-01-2024,320.60,Income,Freelance
+23-01-2024,150.45,Expense,Grocery
+24-01-2024,373.90,Income,Bonus
+25-01-2024,180.75,Expense,Rent
+26-01-2024,248.56,Income,Salary
+27-01-2024,150.45,Income,Gift
+28-01-2024,310.78,Income,Freelance
+29-01-2024,198.64,Expense,Utilities
+30-01-2024,270.89,Expense,Entertainment
+31-01-2024,195.35,Income,Investment Return
+01-02-2024,350.78,Income,Salary
+02-02-2024,320.25,Expense,Dining Out
+03-02-2024,270.45,Expense,Transportation
+04-02-2024,200.78,Income,Salary
+05-02-2024,250.30,Income,Gift
+06-02-2024,400.45,Income,Bonus
+07-02-2024,240.64,Expense,Rent
+08-02-2024,120.33,Expense,Grocery
+09-02-2024,270.45,Income,Freelance
+10-02-2024,180.78,Income,Investment Return
+11-02-2024,130.25,Expense,Dining Out
+12-02-2024,220.89,Expense,Utilities
+13-02-2024,250.78,Income,Salary
+14-02-2024,172.45,Expense,Entertainment
+15-02-2024,180.89,Income,Gift
+16-02-2024,350.25,Income,Salary
+17-02-2024,200.64,Expense,Transportation
+18-02-2024,195.36,Income,Freelance
+19-02-2024,270.75,Income,Investment Return
+20-02-2024,210.50,Expense,Grocery
+21-02-2024,373.90,Income,Bonus
+22-02-2024,240.45,Expense,Dining Out
+23-02-2024,180.78,Income,Gift
+24-02-2024,310.30,Income,Salary
+25-02-2024,135.56,Expense,Utilities
+26-02-2024,198.45,Expense,Rent
+27-02-2024,230.78,Income,Freelance
+28-02-2024,172.45,Income,Investment Return
+29-02-2024,198.64,Income,Salary
+01-03-2024,270.89,Expense,Transportation
+02-03-2024,180.35,Expense,Entertainment
+03-03-2024,320.78,Income,Gift
+04-03-2024,120.25,Expense,Grocery
+05-03-2024,250.54,Income,Bonus
+06-03-2024,270.30,Income,Salary
+07-03-2024,350.45,Income,Freelance
+08-03-2024,200.78,Expense,Utilities
+09-03-2024,310.25,Income,Investment Return
+10-03-2024,180.89,Expense,Dining Out
+11-03-2024,270.45,Income,Gift
+12-03-2024,320.78,Income,Salary
+13-03-2024,120.45,Expense,Rent
+14-03-2024,373.90,Income,Bonus
+15-03-2024,200.36,Expense,Grocery
+16-03-2024,198.45,Income,Freelance
+17-03-2024,150.89,Expense,Transportation
+18-03-2024,250.50,Income,Investment Return
+19-03-2024,180.75,Expense,Utilities
+20-03-2024,270.56,Income,Gift
+21-03-2024,240.78,Income,Salary
+22-03-2024,193.45,Expense,Entertainment
+23-03-2024,310.25,Income,Investment Return
+24-03-2024,150.36,Expense,Dining Out
+25-03-2024,270.45,Income,Freelance
+26-03-2024,320.78,Income,Bonus
+27-03-2024,120.45,Expense,Transportation
+28-03-2024,373.90,Income,Gift
+29-03-2024,198.75,Expense,Grocery
+30-03-2024,180.54,Expense,Utilities
+31-03-2024,250.89,Income,Salary
+24-07-2024,333.99,Expense,Dining out
+24-07-2024,123.22,Income,gig
+24-07-2024,22.2,Expense,mobile top up
+26-07-2024,33.66,Expense,Used for Rewe Shopping
